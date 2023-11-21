@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(97, 97, 97);
+}
+
+
+.wrapper{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    left: 600px;
+    border: 1px solid rgb(126, 126, 126);
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    background-image: url(https://bogatyr.club/uploads/posts/2021-11/thumbs/1636937244_11-bogatyr-club-p-krutoi-chernii-fon-11.jpg);
+    font-family: monospace;
+}
+
+
+
+.count{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 20px;
+    margin-top: 40px;
+
+}
+
+
+
+.count-per-second{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 80px;
+
+}
+.time{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 195px;
+    margin-top: 90px;
+    background-color: rgb(141, 141, 141);
+    width: 60px;
+    padding: 7px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.click{
+    color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+    background-color: rgb(141, 141, 141);
+    padding: 7px;
+    position: relative;
+    margin: 30px;
+    font-size: 15px;
+    bottom: 50px;
+}
+
+
+.reset{
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(141, 141, 141);
+    padding: 7px;
+    position: relative;
+    margin: 20px;
+    font-size: 15px;    
+    bottom: 50px;
+}
+
+
